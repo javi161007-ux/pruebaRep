@@ -22,7 +22,7 @@ public class Date {
   private final int year;
 
   public void methodAddedByOwner() {
-    System.out.println("Method added by the owner");
+    System.out.println("Metodo owner");
   }
 
 
@@ -62,9 +62,9 @@ public class Date {
    *     to pass).
    */
   public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = 5;
+    this.day = 4;
+    this.month = 5;
+    this.year = 4;
   }
 
   /**
